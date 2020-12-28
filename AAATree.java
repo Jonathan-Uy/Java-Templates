@@ -1,5 +1,8 @@
 import java.io.*;
 
+/**
+ * Tested on https://dmoj.ca/problem/ds5
+ */
 public class AAATree {
     static class Reader {
         final private int BUFFER_SIZE = 1 << 16;
