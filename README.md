@@ -7,7 +7,7 @@ Templates for common data structures and algorithms in competitive programming, 
 Computes the determinant of an N by N matrix in cubic time. Very fast implementation, can compute the determinant of 500 by 500 matrices in under 0.2 seconds.
 
 ### Matrix Exponentation
-For an N by N matrix M, computes M to the exponent of K in O(N^3 logK) time. This template is versatile and can be modified to compute Fibonacci numbers, and other linear recurrences  etc.
+For an N by N matrix M, computes M to the exponent of K in O(N^3 logK) time. This template is versatile and can be modified to compute Fibonacci numbers, and other linear recurrences.
 
 ## Trees
 
