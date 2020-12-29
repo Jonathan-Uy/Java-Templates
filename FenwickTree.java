@@ -1,6 +1,9 @@
 import java.io.*;
 import java.util.*;
 
+/**
+ * Tested on https://dmoj.ca/problem/ds1
+ */
 public class FenwickTree {
     static int N, M;
     static int[] A;
