@@ -1,6 +1,17 @@
 # Java Templates
 Original templates for common data structures and algorithms in competitive programming, written in Java.
 
+## One Dimensional Range Queries
+
+### Fenwick Tree
+Allows for point updates and range sums on an array in logarithmic time. Can be extended to allow for range update and point sums, and even range update and range sum.
+
+### Segment Tree
+To be added.
+
+### Implicit Treap
+To be added.
+
 ## Binary Search Trees
 
 ### Size Balanced Tree
