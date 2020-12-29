@@ -4,10 +4,10 @@ Original templates for common data structures and algorithms in competitive prog
 ## One Dimensional Range Queries
 
 ### Fenwick Tree
-Allows for point updates and range sums on an array in logarithmic time. Can be extended to allow for range update and point sums, and even range update and range sum.
+Allows for point increment updates and range sum queries on an array in logarithmic time. Can be extended to allow for range updates and point sums, and even range updates and range sums.
 
 ### Segment Tree
-To be added.
+While a Fenwick tree can handle increment updates and sum queries with few lines of code, a segment tree offers more flexibility and can solve a wider range of problems, also in logarithmic time. For example, using lazy propagation our implementation can handle range increment, range modification, and range minimum queries at the same time. This template can be easily modified to support more complicated operations.
 
 ### Implicit Treap
 To be added.
