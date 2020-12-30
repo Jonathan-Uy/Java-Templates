@@ -10,7 +10,7 @@ Allows for point increment updates and range sum queries on an array in logarith
 While a Fenwick tree can handle increment updates and sum queries with few lines of code, a segment tree offers more flexibility and can solve a wider range of problems, also in logarithmic time. For example, using lazy propagation our implementation can handle range increment, range modification, and range minimum queries at the same time. This template can be easily modified to support more complicated operations.
 
 ### Implicit Treap
-To be added.
+Represents the array as a balanced binary search tree with implicit indexing. This technique allows for even more complicated operations than a segment tree, such as insertion and deletion of ranges of elements, and also reversing on a range. This template has implemented an O(N) build method, as opposed to an O(NlogN) build that some others use.
 
 ## Binary Search Trees
 
