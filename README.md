@@ -1,10 +1,13 @@
 # Java Templates
 Original templates for common data structures and algorithms in competitive programming, written in Java.
 
-## One Dimensional Range Queries
+## Range Queries
 
 ### Fenwick Tree
 Allows for point increment updates and range sum queries on an array in logarithmic time. Can be extended to allow for range updates and point sums, and even range updates and range sums.
+
+### 2D Fenwick Tree
+Allows for points increment updates and range sum queries on a 2D grid in logN squared time. Can be easily modified to support higher dimensions, however rarely necessary.
 
 ### Segment Tree
 While a Fenwick tree can handle increment updates and sum queries with few lines of code, a segment tree offers more flexibility and can solve a wider range of problems, also in logarithmic time. For example, using lazy propagation our implementation can handle range increment, range modification, and range minimum queries at the same time. This template can be easily modified to support more complicated operations.
@@ -31,7 +34,7 @@ Computes the determinant of an N by N matrix in cubic time. Very fast implementa
 ### Matrix Exponentation
 For an N by N matrix M, computes M to the exponent of K in O(N^3 logK) time. This template is versatile and can be modified to compute Fibonacci numbers and other linear recurrences.
 
-## Trees
+## Graphs
 
 ### Link Cut Tree
 Supports path operations on a tree with weighted nodes in logarithmic time. Also used to solve the dynamic connectivity problem for trees.
