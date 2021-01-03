@@ -36,6 +36,10 @@ For an N by N matrix M, computes M to the exponent of K in O(N^3 logK) time. Thi
 
 ## Graphs
 
+### Disjoint Set Union
+
+Also called the Union-Find data structure. It provides operations for adding new sets, merging sets, and finding a representative member of a set. The last operation allows to find out efficiently if any two elements are in the same or different sets. Each operation takes α(n) time, where α is the very slow growing inverse Ackermann function.
+
 ### Link Cut Tree
 Supports path operations on a tree with weighted nodes in logarithmic time. Also used to solve the dynamic connectivity problem for trees.
 | Operation             | Complexity |
